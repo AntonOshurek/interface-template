@@ -1,0 +1,37 @@
+:root {
+	--background: #17151a;
+	--surface: #252525;
+	--on-background: #f5f5f5;
+	--on-background-sub: #efefef;
+	--on-surface: #ffffff;
+	--on-surface-sub: #b7b7b7;
+	--on-surface-text: #f2f2f2;
+
+	--primary: #03dac6;
+	--primary-hover: #83ded5;
+	--on-primary: #000;
+
+
+	/* BUTTONS */
+	--accept: rgb(3, 218, 197, 0.9);
+	--accept-hover: rgb(3, 218, 197, 1);
+	--accept-active: rgb(3, 218, 197, 1);
+	--on-accept: rgba(0, 0, 0, 0.9);
+	--on-accept-hover: rgba(0, 0, 0, 1);
+	--on-accept-active: rgba(0, 0, 0, 1);
+
+	--reject: rgba(187, 134, 252, 0.9);
+	--reject-hover: rgba(187, 134, 252, 1);
+	--reject-active: rgba(187, 134, 252, 1);
+	--on-reject: rgba(0, 0, 0, 0.9);
+	--on-reject-hover: rgba(0, 0, 0, 1);
+	--on-reject-active: rgba(0, 0, 0, 1);
+}
+
+/* 2. Surface (with 1dp elevation surface overlay)
+	3. Primary
+	4. Secondary
+	5. On background
+	6. On Surface
+	7. On Primary
+	8. On Secondary */

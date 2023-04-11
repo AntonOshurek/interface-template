@@ -6,9 +6,132 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="colors.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="body">
+	<div class="body__wrap">
+
+		<div class="login">
+			<h1>Login</h1>
+
+			<form>
+				<h2>login data</h2>
+
+				<label>
+					<input type="email">
+				</label>
+				<label>
+					<input type="password">
+				</label>
+
+				<button type="submit">submit</button>
+			</form>
+		</div>
+
+
+		<div>
+			<h1 class="body__title">Page title</h1>
+			<p class="body__sub-title">sub page information</p>
+		</div>
+
+		<article class="article">
+			<h2 class="article__title">Articel title</h2>
+			<p class="article__subtext">subtest in article</p>
+			<p class="articel__main-info">Main article information in primary color!</p>
+
+
+			<div class="articel__controls">
+				<button class="standart-sub-button standart-sub-button--main" type="button">
+					save
+				</button>
+
+				<button class="standart-sub-button standart-sub-button--second" type="button">
+					delete
+				</button>
+			</div>
+		</article>
+
+		<div class="settings">
+			<h2 class="settings__title">block Settings</h2>
+
+			<form class="settings-form">
+				<label class="standart-input">
+					standart input
+					<input class="standart-input__field" type="text">
+				</label>
+
+
+				<fieldset class="settings-form__fieldset">
+					<legend class="settings-form__legend">Radio buttons</legend>
+
+					<label class="settings-form__label">
+						email
+						<input type="radio" name="contact" value="email">
+					</label>
+					<label class="settings-form__label">
+						phone
+						<input type="radio" name="contact" value="phone">
+					</label>
+					<label class="settings-form__label">
+						mail
+						<input type="radio" name="contact" value="mail">
+					</label>
+				</fieldset>
+
+
+				<fieldset class="settings-form__fieldset">
+					<legend class="settings-form__legend">Checkbox buttons</legend>
+
+					<label class="settings-form__label">
+						checkbox one
+						<input type="checkbox">
+					</label>
+					<label class="settings-form__label">
+						checkbox two
+						<input type="checkbox">
+					</label>
+					<label class="settings-form__label">
+						checkbox thre
+						<input type="checkbox">
+					</label>
+				</fieldset>
+
+				<fieldset class="settings-form__fieldset">
+					<legend class="settings-form__legend">Select</legend>
+
+					<select name="" id="">
+						<option value="dog">Dog</option>
+						<option value="cat">Cat</option>
+						<option value="hamster">Hamster</option>
+						<option value="parrot">Parrot</option>
+						<option value="spider">Spider</option>
+						<option value="goldfish">Goldfish</option>
+					</select>
+
+					<select name="choice">
+						<option value="first">First Value</option>
+						<option value="second" selected>Second Value</option>
+						<option value="third">Third Value</option>
+					</select>
+				</fieldset>
+
+				<button class="basic_button basic_button__save" type="button">
+					save
+				</button>
+
+				<button class="basic_button basic_button__delete" type="button">
+					discard
+				</button>
+			</form>
+		</div>
+	</div>
 
 </body>
 
